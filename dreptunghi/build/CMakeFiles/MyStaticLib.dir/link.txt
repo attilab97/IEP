@@ -1,0 +1,2 @@
+/Library/Developer/CommandLineTools/usr/bin/ar qc libMyStaticLib.a  CMakeFiles/MyStaticLib.dir/dreptunghi.cpp.o
+/Library/Developer/CommandLineTools/usr/bin/ranlib libMyStaticLib.a
