@@ -1,0 +1,7 @@
+/Users/Attila/Desktop/IEP/Lab5/ncomplex/build/CMakeFiles/install/local.dir
+/Users/Attila/Desktop/IEP/Lab5/ncomplex/build/CMakeFiles/install/strip.dir
+/Users/Attila/Desktop/IEP/Lab5/ncomplex/build/CMakeFiles/install.dir
+/Users/Attila/Desktop/IEP/Lab5/ncomplex/build/CMakeFiles/list_install_components.dir
+/Users/Attila/Desktop/IEP/Lab5/ncomplex/build/CMakeFiles/rebuild_cache.dir
+/Users/Attila/Desktop/IEP/Lab5/ncomplex/build/CMakeFiles/edit_cache.dir
+/Users/Attila/Desktop/IEP/Lab5/ncomplex/build/CMakeFiles/ncomplex.dir

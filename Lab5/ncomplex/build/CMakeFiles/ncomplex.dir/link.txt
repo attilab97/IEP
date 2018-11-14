@@ -1,0 +1,2 @@
+/Library/Developer/CommandLineTools/usr/bin/ar qc libncomplex.a  CMakeFiles/ncomplex.dir/ncomplex.cpp.o
+/Library/Developer/CommandLineTools/usr/bin/ranlib libncomplex.a

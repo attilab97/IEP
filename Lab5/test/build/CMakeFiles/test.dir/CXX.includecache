@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/Attila/Desktop/IEP/Lab5/test/main.cpp
+iostream
+-
+ncomplex.h
+/Users/Attila/Desktop/IEP/Lab5/test/ncomplex.h
+
