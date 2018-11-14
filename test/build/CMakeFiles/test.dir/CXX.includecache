@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/Attila/Desktop/IEP/test/main.cpp
+iostream
+-
+dreptunghi.h
+/Users/Attila/Desktop/IEP/test/dreptunghi.h
+

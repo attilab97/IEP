@@ -1,0 +1,2 @@
+/Library/Developer/CommandLineTools/usr/bin/ar qc libdreptunghi.a  CMakeFiles/dreptunghi.dir/dreptunghi.cpp.o
+/Library/Developer/CommandLineTools/usr/bin/ranlib libdreptunghi.a

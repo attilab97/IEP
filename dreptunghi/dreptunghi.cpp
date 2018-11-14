@@ -1,8 +1,8 @@
-#include "dreptunghi.hpp"
+#include "dreptunghi.h"
 #include <iostream>
-Dreptunghi::Dreptunghi(float latine, float lungime)
+Dreptunghi::Dreptunghi(float latime, float lungime):l(latime),L(lungime)
 {
-    l = latine;
+    l = latime;
     L = lungime;
 }
 float Dreptunghi::arie()

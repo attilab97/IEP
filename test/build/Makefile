@@ -48,59 +48,13 @@ RM = /usr/local/Cellar/cmake/3.12.3/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/Attila/Desktop/IEP/dreptunghi
+CMAKE_SOURCE_DIR = /Users/Attila/Desktop/IEP/test
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/Attila/Desktop/IEP/dreptunghi/build
+CMAKE_BINARY_DIR = /Users/Attila/Desktop/IEP/test/build
 
 #=============================================================================
 # Targets provided globally by CMake.
-
-# Special rule for the target install/local
-install/local: preinstall
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
-	/usr/local/Cellar/cmake/3.12.3/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
-.PHONY : install/local
-
-# Special rule for the target install/local
-install/local/fast: preinstall/fast
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
-	/usr/local/Cellar/cmake/3.12.3/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
-.PHONY : install/local/fast
-
-# Special rule for the target install/strip
-install/strip: preinstall
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
-	/usr/local/Cellar/cmake/3.12.3/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
-.PHONY : install/strip
-
-# Special rule for the target install/strip
-install/strip/fast: preinstall/fast
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
-	/usr/local/Cellar/cmake/3.12.3/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
-.PHONY : install/strip/fast
-
-# Special rule for the target install
-install: preinstall
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
-	/usr/local/Cellar/cmake/3.12.3/bin/cmake -P cmake_install.cmake
-.PHONY : install
-
-# Special rule for the target install
-install/fast: preinstall/fast
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
-	/usr/local/Cellar/cmake/3.12.3/bin/cmake -P cmake_install.cmake
-.PHONY : install/fast
-
-# Special rule for the target list_install_components
-list_install_components:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Available install components are: \"Unspecified\""
-.PHONY : list_install_components
-
-# Special rule for the target list_install_components
-list_install_components/fast: list_install_components
-
-.PHONY : list_install_components/fast
 
 # Special rule for the target rebuild_cache
 rebuild_cache:
@@ -126,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/Attila/Desktop/IEP/dreptunghi/build/CMakeFiles /Users/Attila/Desktop/IEP/dreptunghi/build/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/Attila/Desktop/IEP/test/build/CMakeFiles /Users/Attila/Desktop/IEP/test/build/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/Attila/Desktop/IEP/dreptunghi/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/Attila/Desktop/IEP/test/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -157,44 +111,44 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named dreptunghi
+# Target rules for targets named test
 
 # Build rule for target.
-dreptunghi: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 dreptunghi
-.PHONY : dreptunghi
+test: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 test
+.PHONY : test
 
 # fast build rule for target.
-dreptunghi/fast:
-	$(MAKE) -f CMakeFiles/dreptunghi.dir/build.make CMakeFiles/dreptunghi.dir/build
-.PHONY : dreptunghi/fast
+test/fast:
+	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/build
+.PHONY : test/fast
 
-dreptunghi.o: dreptunghi.cpp.o
+main.o: main.cpp.o
 
-.PHONY : dreptunghi.o
+.PHONY : main.o
 
 # target to build an object file
-dreptunghi.cpp.o:
-	$(MAKE) -f CMakeFiles/dreptunghi.dir/build.make CMakeFiles/dreptunghi.dir/dreptunghi.cpp.o
-.PHONY : dreptunghi.cpp.o
+main.cpp.o:
+	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/main.cpp.o
+.PHONY : main.cpp.o
 
-dreptunghi.i: dreptunghi.cpp.i
+main.i: main.cpp.i
 
-.PHONY : dreptunghi.i
+.PHONY : main.i
 
 # target to preprocess a source file
-dreptunghi.cpp.i:
-	$(MAKE) -f CMakeFiles/dreptunghi.dir/build.make CMakeFiles/dreptunghi.dir/dreptunghi.cpp.i
-.PHONY : dreptunghi.cpp.i
+main.cpp.i:
+	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/main.cpp.i
+.PHONY : main.cpp.i
 
-dreptunghi.s: dreptunghi.cpp.s
+main.s: main.cpp.s
 
-.PHONY : dreptunghi.s
+.PHONY : main.s
 
 # target to generate assembly for a file
-dreptunghi.cpp.s:
-	$(MAKE) -f CMakeFiles/dreptunghi.dir/build.make CMakeFiles/dreptunghi.dir/dreptunghi.cpp.s
-.PHONY : dreptunghi.cpp.s
+main.cpp.s:
+	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/main.cpp.s
+.PHONY : main.cpp.s
 
 # Help Target
 help:
@@ -202,16 +156,12 @@ help:
 	@echo "... all (the default if no target is provided)"
 	@echo "... clean"
 	@echo "... depend"
-	@echo "... install/local"
-	@echo "... install/strip"
-	@echo "... install"
-	@echo "... dreptunghi"
-	@echo "... list_install_components"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
-	@echo "... dreptunghi.o"
-	@echo "... dreptunghi.i"
-	@echo "... dreptunghi.s"
+	@echo "... test"
+	@echo "... main.o"
+	@echo "... main.i"
+	@echo "... main.s"
 .PHONY : help
 
 

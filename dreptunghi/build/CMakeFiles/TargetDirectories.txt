@@ -1,3 +1,7 @@
-/Users/Attila/Desktop/dreptunghi/build/CMakeFiles/rebuild_cache.dir
-/Users/Attila/Desktop/dreptunghi/build/CMakeFiles/edit_cache.dir
-/Users/Attila/Desktop/dreptunghi/build/CMakeFiles/MyStaticLib.dir
+/Users/Attila/Desktop/IEP/dreptunghi/build/CMakeFiles/install/local.dir
+/Users/Attila/Desktop/IEP/dreptunghi/build/CMakeFiles/install/strip.dir
+/Users/Attila/Desktop/IEP/dreptunghi/build/CMakeFiles/install.dir
+/Users/Attila/Desktop/IEP/dreptunghi/build/CMakeFiles/dreptunghi.dir
+/Users/Attila/Desktop/IEP/dreptunghi/build/CMakeFiles/list_install_components.dir
+/Users/Attila/Desktop/IEP/dreptunghi/build/CMakeFiles/rebuild_cache.dir
+/Users/Attila/Desktop/IEP/dreptunghi/build/CMakeFiles/edit_cache.dir
